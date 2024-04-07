@@ -25,7 +25,3 @@ saveRDS(
   random_numbers3,
   file = here::here("output", "random_numbers3.rds")
 )
-<<<<<<< HEAD
-
-=======
->>>>>>> upstream/main
