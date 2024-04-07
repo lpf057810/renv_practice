@@ -45,11 +45,8 @@ random_numbers3_breaks <- as.numeric(
   )
 )
 
-<<<<<<< HEAD
-colors <- 1:4
-=======
 colors <- RColorBrewer::brewer.pal(4, "Set1")
->>>>>>> upstream/main
+
 
 point_color <- colors[random_numbers3_breaks]
 plot(
