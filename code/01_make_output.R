@@ -1,7 +1,8 @@
 here::i_am(
   "code/01_make_output.R"
 )
-
+library(here)
+library(wesanderson)
 set.seed(1)
 random_numbers1 <- rnorm(100)
 
@@ -25,3 +26,4 @@ saveRDS(
   random_numbers3,
   file = here::here("output", "random_numbers3.rds")
 )
+
